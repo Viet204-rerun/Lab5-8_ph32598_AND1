@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    tools:context=".lab5.bai2"
+    >
+    <include layout="@layout/toolbar"></include>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/vienbutton2"
+        android:gravity="center"
+        android:text="Danh sách sinh viên"
+        android:textColor="#EA2222"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="thêm mới"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginLeft="310dp"
+        android:background="@drawable/vienbutton3"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview"/>
+
+</LinearLayout>

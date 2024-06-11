@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Lab5_ph32598" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+<!--        <item name="colorPrimary">@color/purple_500</item>-->
+<!--        <item name="colorPrimaryVariant">@color/purple_700</item>-->
+<!--        <item name="colorOnPrimary">@color/white</item>-->
+<!--        &lt;!&ndash; Secondary brand color. &ndash;&gt;-->
+<!--        <item name="colorSecondary">@color/teal_200</item>-->
+<!--        <item name="colorSecondaryVariant">@color/teal_700</item>-->
+<!--        <item name="colorOnSecondary">@color/black</item>-->
+<!--        &lt;!&ndash; Status bar color. &ndash;&gt;-->
+<!--        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>-->
+        <item name="android:windowAnimationStyle">@style/Myanimation</item>
+    </style>
+    <style name="Myanimation" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:activityOpenEnterAnimation">@anim/bai7_3</item>
+        <item name="android:activityCloseEnterAnimation">@anim/bai7_3</item>
+        <item name="android:activityOpenExitAnimation">@anim/bai7_3_false_out</item>
+        <item name="android:activityCloseExitAnimation">@anim/bai7_3_false_out</item>
+    </style>
+</resources>
